@@ -91,11 +91,11 @@ button {
 
 @media screen and (max-width: 750px) {
     .recipe-card {
-        width: calc(50% - 20px); 
+        width: 100%; 
     }
 
     input[type="text"] {
-        width: 70%; 
+        width: 80%; 
     }
 
     button {
