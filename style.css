@@ -88,3 +88,17 @@ button {
     text-decoration: none;
     position: relative;
 }
+
+@media screen and (max-width: 750px) {
+    .recipe-card {
+        width: calc(50% - 20px); 
+    }
+
+    input[type="text"] {
+        width: 70%; 
+    }
+
+    button {
+        padding: 10px;
+    }
+}
