@@ -5,8 +5,8 @@ function searchRecipes() {
     return;
   }
 
-  const appId = 'c32a6d21'; 
-  const appKey = '5394ecf5d06848f248b4ac4b1b02baff'; 
+  const appId = 'Your Id'; 
+  const appKey = 'Your Api Key'; 
   const apiUrl = `https://api.edamam.com/api/recipes/v2?type=public&q=${searchInput}&app_id=${appId}&app_key=${appKey}&limit=10`;
 
   fetch(apiUrl)
